@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #3F3F3F;
+}
+
+img{
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: Airbnb-bk;
+    src: url(fonts/AirbnbCereal_W_Bk.otf);
+}
+
+@font-face {
+    font-family: Airbnb-Bb;
+    src: url(fonts/AirbnbCereal_W_XBd.otf);
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.logo img{
+    max-width: 40px;
+}
+
+.logo__text{
+    margin-left: 10px;
+    font-family: Airbnb-Bb;
+    font-size: 1.6rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    font-family: Airbnb-Bk;
+}
+
+.nav__link{
+    cursor: pointer;
+}
+
+.nav__link-login{
+    font-weight: bold;
+}
+
+.nav__link--right-button{
+    background-color: #3BAA67;
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.nav__link + .nav__link{
+    margin-left: 30px;
+}
+
+#active{
+    font-weight: bold;
+    color:  #3BAA67;
+}
+
+.hero__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__text{
+    width: 130%;
+    margin-top: 70px;
+}
+
+.hero__text h1{
+    font-family: Airbnb-Bb;
+    font-size: 4rem;
+    line-height: 80px;
+    max-width: 80%;
+}
+
+.hero__text p{
+    font-family: Airbnb-Bk;
+    line-height: 30px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    max-width: 65%;
+
+    margin: 20px 0;
+}
+
+.hero__cta{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero__cta--left-button{
+    border: 2px solid #3BAA67;
+    background-color: #3BAA67;
+    border-radius: 10px;
+    color: #ffff;
+
+    cursor: pointer;
+    padding: 15px 25px;
+}
+
+.hero__cta--right-button{
+    border-radius: 10px;
+    border: 2px solid #3BAA67;
+    color: #3BAA67;
+
+    cursor: pointer;
+    padding: 15px 25px;
+}
+
+
+.details{
+    margin-top: 20px;
+    font-family: Airbnb-Bk;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.d-flex h1{
+    font-size: 3rem;
+}
+
+.d-flex p{
+    font-weight: bold;
+}
+
+.fa-graduation-cap{
+    color: #3BAA67;
+    font-size: 3rem;
+    transform: rotateY(180deg);
+}
